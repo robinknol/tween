@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.tween.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../:\Users\knolb\Documents\MaFolder\p3\Unity\ar_smc_product_overview-master\AR_Project\tween\.idea\.idea.tween\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
