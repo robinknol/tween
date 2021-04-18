@@ -10,8 +10,6 @@ namespace Script
         private readonly List<TweenMove> _moveTween = new List<TweenMove>();
         private readonly List<TweenScale> _scaleTween = new List<TweenScale>();
         private readonly List<TweenRotation> _rotationTween = new List<TweenRotation>();
-        public event Action<TweenMove> test;
-
         private void Update()
         {
             if (_moveTween.Count < 1);

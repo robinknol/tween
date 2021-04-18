@@ -3,9 +3,9 @@ using System;
 
 namespace Script.Tweens
 {
-    public class TweenMove : Tween
+    public class TweenRotation : Tween
     {
-        public TweenMove(GameObject objectToInteract, Vector3 targetPos, float speed, Func<float, float> method)
+        public TweenRotation(GameObject objectToInteract, Vector3 targetPos, float speed, Func<float, float> method)
         {
             GameObject = objectToInteract;
             Target = targetPos;

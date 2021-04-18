@@ -3,15 +3,15 @@ using System;
 
 namespace Script.Tweens
 {
-    public class TweenRotation : Tween
+    public class TweenMove : Tween
     {
-        public TweenRotation(GameObject objectToInteract, Vector3 targetPos, float speed, Func<float, float> method)
+        public TweenMove(GameObject objectToInteract, Vector3 targetPos, float speed, Func<float, float> method)
         {
             GameObject = objectToInteract;
             Target = targetPos;
             Speed = speed;
 
-            Start = GameObject.transform.rotation.eulerAngles;
+            Start = GameObject.transform.position;
             Direction = Target - Start;
             Percent = 0;
 
